@@ -1,7 +1,7 @@
 # Sergey Otroshchenko
 
-! [Photo](./photo.jpg)
-*****************************************
+![Photo](./photo.jpg)
+**************************************
 ## Contacts:
 --------------
 - Github: AtroschankaS;
