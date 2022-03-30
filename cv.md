@@ -3,11 +3,11 @@
 ![Photo](./photo.jpg)
 **************************************
 ## Contacts:
---------------
+
 - Github: AtroschankaS;
 - Discord: Сергей Отрощенко#7966
-- Email: osn.28.11@gmail.com
-- Tel.: +375293498408
+- E-mail: osn.28.11@gmail.com
+- Phone: +375293498408
 
 ## About myself:
 
