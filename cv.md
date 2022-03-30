@@ -1,4 +1,4 @@
-# Sergey Otroshchenko
+# **Sergey Otroshchenko**
 
 ![Photo](./photo.jpg)
 **************************************
