@@ -1,0 +1,22 @@
+.header {
+    display: block;
+    flex-direction: row;
+    width: 1000px;
+    height: 265px;
+    justify-content: space-between;
+    background-color: dimgray;
+}
+.header_conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: flex-end;
+    width: 40%;
+    background-color: dimgray;
+    flex-wrap: wrap;
+    font-size: 30px;
+    color: orange;
+    position: relative;
+    top: -250px;
+    left: 500px;
+}
