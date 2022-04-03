@@ -68,7 +68,7 @@
     flex-wrap: wrap;
     font-size: 30px;
     color: orange;
-    padding: 10px;
+    padding: 70px 10px 0px 0px;
 }
 
 .conteiner_div {
@@ -113,6 +113,21 @@
     padding: 0px 100px;
     width: auto;
 }
+
 .foot_list {
     background-size: auto;
+    font-size: 20px;
+}
+
+.foot_list a {
+    color: #000;
+    text-decoration: none;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.foot_list a:hover {
+    font-weight: bold;
+    color: orange;
+    transform: scale(1.2);
 }
