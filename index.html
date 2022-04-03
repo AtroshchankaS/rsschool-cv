@@ -10,7 +10,7 @@
 <body class="wraper">
     <header class="header"> 
         <div>
-            <img src="./photo.jpg" alt="Photo">
+            <img src="./photo1.jpg" alt="Photo">
         </div>
         <div class="header_titl">
             <div class="header_conteiner">
@@ -22,7 +22,7 @@
                     <li><a href="#About myself">About myself</a> </li>
                     <li><a href="#Sample code">Sample code</a> </li>
                     <li><a href="#Experience">Experience</a> </li>
-                    <li><a href="#Education">Education</a> </li>
+                    <li><a href="#Skills">Skills</a> </li>
                     <li><a href="#Languages">Languages</a> </li>
                     <li><a href="#Contacts">Contacts</a> </li>
                 </ul>
@@ -41,21 +41,31 @@
         <div id="Sample code" class="conteiner_div">
             <h2>Sample code:</h2>
             <pre>
-                 style
-                        .background-black-50 {
-                         background-color: rgba(0, 0, 0, 0.5);
+                function unique(arr) {
+                    let result = [];
+                      for (let str of arr) {
+                      if (!result.includes(str)) {
+                        result.push(str);
+                      }
                     }
-                    <p class="background-black-50">Решение задания №29</p>
-                /style
+                    return result;
+                  }
             </pre>
         </div>
         <div id="Experience" class="conteiner_div">
             <h2>Experience:</h2>
-            <p>30 years in construction.</p>
+            <p>30 years in construction. No experience in software development.</p>
         </div>
-        <section id="Education" class="conteiner_div">
-            <h2>Education:</h2>
-            <p>Secondary technical.</p>
+        <section id="Skills" class="conteiner_div">
+            <h2>Skills:</h2>
+            <ul>
+                <li>HTML, CSS (beginner level).</li>
+                <li>JavaScript (basics).</li>
+                <li>Version control: Git (GitHub remote service).</li>
+                <li>Windows OS.</li>
+                <li>Figma (for web development)</li>
+                <li>Editors: VSCode.</li>
+            </ul>
         </section>
         <section id="Languages" class="conteiner_div">
             <h2>Languages:</h2>
@@ -69,12 +79,11 @@
             <ul>
                 <li>Github: AtroschankaS;</li>
                 <li>Email: osn.28.11@gmail.com</li>
-                <li>Tel.: +375293498408</li>
+                <li>Phone.: +375293498408</li>
                 <li>Discord: Сергей Отрощенко#7966</li>
             </ul>
         </section>
      </div>
-    
 </main>
 <footer class="conteiner_footer">
     <div class="foot_list">
@@ -85,6 +94,5 @@
         <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="Logotype" width="80" height="40"></a>
     </div>
 </footer>
-    
 </body>
 </html>
