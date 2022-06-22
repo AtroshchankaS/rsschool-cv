@@ -7,15 +7,95 @@
     <link rel="stylesheet" href="./style.css">
     <title>CV</title>
 </head>
-<body>
+<body class="wraper">
     <header class="header"> 
-        <div>
-            <img src="./photo.jpg" alt="Photo">
+        <div class="photo">
+            <img src="./photo1.jpg" alt="Photo">
         </div>
-        <div class="header_conteiner" style="flex-grow: 2">
-            <h1>Sergey Otroshchenko</h1>
+        <div class="header_titl">
+            <div class="header_conteiner">
+                <h1>Sergey</h1>
+                <h1>Otroshchenko</h1>
+            </div>
+            <nav>
+                <ul class="mainNav">
+                    <li><a href="#About_myself">About myself</a> </li>
+                    <li><a href="#Sample_code">Sample code</a> </li>
+                    <li><a href="#Experience">Experience</a> </li>
+                    <li><a href="#Skills">Skills</a> </li>
+                    <li><a href="#Languages">Languages</a> </li>
+                    <li><a href="#Contacts">Contacts</a> </li>
+                </ul>
+            </nav>
         </div>
  </header>
-    
+ <main class="conteiner_main">
+     <div class="left_main">
+        <img src="./matricy-siniy-fon1.jpg" alt="Fon">
+     </div>
+     <div class="right_main">
+        <div class="conteiner_div" id="About_myself">
+            <h2>About myself:</h2>
+            <p>Until now, he worked in construction. However, for a long time I have been interested in electronics and programming. Therefore, this year I decided to study JS Front-end.</p>
+        </div>
+        <div id="Sample_code" class="conteiner_div">
+            <h2>Sample code:</h2>
+            <pre>
+                function unique(arr) {
+                    let result = [];
+                      for (let str of arr) {
+                      if (!result.includes(str)) {
+                        result.push(str);
+                      }
+                    }
+                    return result;
+                  }
+            </pre>
+        </div>
+        <div id="Experience" class="conteiner_div">
+            <h2>Experience:</h2>
+            <p>30 years in construction. 
+                He went all the way from a concrete worker to the director 
+                of a construction organization. No experience in software development, 
+                but there is a great desire to learn this interesting business.</p>
+        </div>
+        <section id="Skills" class="conteiner_div">
+            <h2>Skills:</h2>
+            <ul>
+                <li>HTML, CSS (beginner level).</li>
+                <li>JavaScript (basics).</li>
+                <li>Version control: Git (GitHub remote service).</li>
+                <li>Windows OS.</li>
+                <li>Figma (for web development)</li>
+                <li>Editors: VSCode.</li>
+            </ul>
+        </section>
+        <section id="Languages" class="conteiner_div">
+            <h2>Languages:</h2>
+            <ul>
+                <li><p>Russian - native speaker</p></li>
+                <li><p>English - A1. (At the same time I am taking courses in English.)</p></li>
+            </ul>
+        </section>
+        <section id="Contacts"  class="conteiner_div">
+            <h2>Contacts:</h2>
+            <ul>
+                <p>Github: AtroschankaS;</p>
+                <li>Email: osn.28.11@gmail.com</li>
+                <li>Phone.: +375293498408</li>
+                <li>Discord: Сергей Отрощенко#7966</li>
+            </ul>
+        </section>
+     </div>
+</main>
+<footer class="conteiner_footer">
+    <div class="foot_list">
+        <span>2022г.</span>
+        <a href="https://github.com/AtroshchankaS">AtroshchankaS</a>
+    </div>
+    <div class="foot_list">
+        <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="Logotype" width="80" height="40"></a>
+    </div>
+</footer>
 </body>
 </html>
